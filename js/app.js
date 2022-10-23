@@ -18,7 +18,23 @@ navUlList();
 
 /** when click on nav links && animation */
 
-listNav.addEventListener("click", () => { document.scrollIntoView({ behavior: "smooth" }) });
+listNvScrol = [...document.querySelectorAll('a[href^="#"]')];
+// console.log(listNvScrol);
+
+listNvScrol.forEach(a => {
+    a.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(a.getAttribute('href')).scrollIntoView({
+            behavior: "smooth",
+            block: "end"
+        });
+
+    });
+});
+
+
+//listNav.addEventListener("click", () => { document.scrollIntoView({ behavior: "smooth" }) });
 
 /**animation to sections and nav bar <a>link  highlight*/
 
