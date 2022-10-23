@@ -25,10 +25,7 @@ listNvScrol.forEach(a => {
     a.addEventListener('click', function (e) {
         e.preventDefault();
 
-        document.querySelector(a.getAttribute('href')).scrollIntoView({
-            behavior: "smooth",
-            block: "end"
-        });
+        document.querySelector(a.getAttribute('href')).scrollIntoView({behavior: "smooth"});
 
     });
 });
