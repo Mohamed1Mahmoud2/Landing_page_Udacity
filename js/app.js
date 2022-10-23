@@ -10,7 +10,7 @@ function navUlList() {
     sections.forEach(section => {
         const sectionID = section.id;
         const sectionAtrribute = section.dataset.nav;
-        navListContainer += `<li> <a class="list_sec" data-nav="${sectionID}" href="#${sectionID}">${sectionAtrribute}</a></li>`
+        navListContainer += `<li> <a class="list_sec menu__link" data-nav="${sectionID}" href="#${sectionID}">${sectionAtrribute}</a></li>`
     })
     listNav.innerHTML = navListContainer;
 }
