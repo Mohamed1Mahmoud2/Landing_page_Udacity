@@ -1,6 +1,6 @@
 # Landing_page_Udacity
 
-##Landing page
+## Landing page
 <p>This is my first project with Udacity,</p?
 <p>and I hope to be successful in using the tools that 
 I learned to implement what is required of me in this project.</p>
