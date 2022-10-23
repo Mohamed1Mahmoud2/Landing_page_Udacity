@@ -47,10 +47,3 @@ window.onscroll = function () {
         }
     });
 }
-/*
-test element position
-*/
-// console.log(document.getElementById("section1").getBoundingClientRect());
-// console.log(document.getElementById("section2").getBoundingClientRect());
-// console.log(document.getElementById("section3").getBoundingClientRect());
-//sction h529
